@@ -1,17 +1,13 @@
 import React, {Component} from 'react';
 import {Link, BrowserRouter as Router} from 'react-router-dom';
-import {Nav} from 'react-bootstrap';
+import {Nav, Navbar, Form, FormControl, Button} from 'react-bootstrap';
 
 class HeaderComponent extends Component {
-    constructor(props) {
-        super(props)
-    }
-    
     render() {
         return (
             <header>
                 <Router>
-                <Nav className='navbar navbar-expand-sm navbar-dark bg-dark'>
+                {/* <Nav className='navbar navbar-expand-sm navbar-dark bg-dark '>
                 <div>
                     <a href='*' className='navbar-brand'>
                     청운암
@@ -34,7 +30,19 @@ class HeaderComponent extends Component {
                         </Link>
                     </li>
                 </ul> 
-            </Nav>
+            </Nav> */}
+                <Navbar bg="dark" variant="dark">
+                    <Navbar.Brand href="#home">청운암</Navbar.Brand>
+                    <Nav className="mr-auto">
+                        <Nav.Link href="#home">Home</Nav.Link>
+                        <Nav.Link href="#visit">방문안내</Nav.Link>
+                        <Nav.Link href="#qna">문의</Nav.Link>
+                    </Nav>
+                    <Form inline>
+                        <FormControl type="text" placeholder="Search" className="mr-sm-2" />
+                        <Button variant="outline-info">Search</Button>
+                    </Form>
+                </Navbar>
             </Router>
           </header>
         )
