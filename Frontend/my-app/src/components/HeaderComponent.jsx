@@ -11,6 +11,7 @@ class HeaderComponent extends Component {
                         <Navbar.Brand href="/home">청운암</Navbar.Brand>
                         <Nav className="mr-auto">
                             <Nav.Link href="/home">Home</Nav.Link>
+                            <Nav.Link href="/intro">소개</Nav.Link>
                             <Nav.Link href="/visit">방문안내</Nav.Link>
                             <Nav.Link href="/reservation">상담문의</Nav.Link>
                         </Nav>

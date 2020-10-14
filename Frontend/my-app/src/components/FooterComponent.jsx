@@ -5,8 +5,7 @@ class FooterComponent extends Component {
   render() {
     return (
       <footer className='footer'>
-        <div className='text-muted'>All Rights Reserved 2020 청운암</div>
-        <SocialFollow />
+          <SocialFollow />
       </footer>
     );
   }

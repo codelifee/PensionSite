@@ -44,14 +44,15 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #001f3f;
+  background-color: #343a40;
   color: white;
   text-align: center;
   padding-top: 5px;
+  display: flex;
 }
 
 img {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   position: relative;
 }
 
@@ -61,15 +62,25 @@ img {
   left: 30%;
   font-family: 'Nanum Pen Script', cursive;
   font-size: xx-large;
+  color: azure;
+}
+
+.left-center {
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: xx-large;
+  color: azure;
 }
 
 .social-container {
-  padding: 15px 25px;
+  padding: 10px 30px;
   font-size: small;
 }
 
 a.social {
-  margin: 0 1rem;
+  margin: 0 0.2rem;
   transition: transform 250ms;
   display: inline-block;
   font-size: small;
@@ -79,17 +90,17 @@ a.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
+/* a.youtube {
   color: #eb3223;
-}
+} */
 
-a.facebook {
+/* a.facebook {
   color: #4968ad;
 }
 
 a.twitter {
   color: #49a1eb;
-}
+} */
 
 a.instagram {
   color: deeppink;

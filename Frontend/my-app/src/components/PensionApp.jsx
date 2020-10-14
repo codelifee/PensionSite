@@ -2,30 +2,29 @@ import React, {Component} from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
 import HomeComponent from './HomeComponent';
+import IntroComponent from './IntroComponent';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 class PensionApp extends Component {
     render() {
         return (
-                <div>
+                
                     <Router>
                     <HeaderComponent />
                         <Switch>
-                            <Route path='/'>
+                            <Route path='/' exact>
                                 <HomeComponent />
                             </Route>
                             <Route path='/home'>
                                 <HomeComponent />
                             </Route>
-                            <Route>
-                            </Route>
-                            <Route>
+                            <Route path='/intro'>
+                                <IntroComponent />
                             </Route>
                         </Switch>
                         <FooterComponent />
                     </Router>
-                </div>
         )
     }
 }
