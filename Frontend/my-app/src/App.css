@@ -52,6 +52,7 @@
 
 img {
   opacity: 0.5;
+  position: relative;
 }
 
 .top-left {

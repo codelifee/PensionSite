@@ -5,7 +5,7 @@ class HomeComponent extends Component {
         return(
             <>
                  <div>
-                    <img src="/mountain.jpg" 
+                    <img src="/hands.jpg" 
                     className="img-fluid" 
                     alt="Responsive" />
                     <div className='top-left'>진로, 자녀, 연애, 불행</div>

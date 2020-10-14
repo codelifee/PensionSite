@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import HeaderComponent from './HeaderComponent';
 import FooterComponent from './FooterComponent';
 import HomeComponent from './HomeComponent';
-import {BrowserRouter as Router, Switch, Link, Route} from 'react-router-dom';
-import SocialFollow from '../api/SocialFollow.js'
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
 class PensionApp extends Component {
@@ -13,6 +12,9 @@ class PensionApp extends Component {
                     <Router>
                     <HeaderComponent />
                         <Switch>
+                            <Route path='/'>
+                                <HomeComponent />
+                            </Route>
                             <Route path='/home'>
                                 <HomeComponent />
                             </Route>
@@ -22,7 +24,6 @@ class PensionApp extends Component {
                             </Route>
                         </Switch>
                         <FooterComponent />
-                        <SocialFollow />
                     </Router>
                 </div>
         )
