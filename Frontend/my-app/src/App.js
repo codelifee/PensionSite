@@ -1,8 +1,6 @@
 import React from 'react';
 import './App.css';
 import PensionApp from './components/PensionApp';
-//import {Nav} from 'react-bootstrap';
-
 
 function App() {
   return (
