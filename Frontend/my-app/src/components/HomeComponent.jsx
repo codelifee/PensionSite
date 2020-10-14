@@ -8,7 +8,7 @@ class HomeComponent extends Component {
                     <img src="/hands.jpg" 
                     className="img-fluid" 
                     alt="Responsive" />
-                    <div className='top-left'>진로, 자녀, 연애, 불행</div>
+                    <div className='center'>사업기도, 승진기도, 학업 성취기도, 천도, 가정성불기도</div>
                  </div> 
             </>
         )

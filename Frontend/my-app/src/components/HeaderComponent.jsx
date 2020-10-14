@@ -12,7 +12,7 @@ class HeaderComponent extends Component {
                         <Nav className="mr-auto">
                             <Nav.Link href="/home">Home</Nav.Link>
                             <Nav.Link href="/visit">방문안내</Nav.Link>
-                            <Nav.Link href="/qna">문의</Nav.Link>
+                            <Nav.Link href="/reservation">상담문의</Nav.Link>
                         </Nav>
                         <Form inline>
                             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
