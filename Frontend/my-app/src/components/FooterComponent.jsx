@@ -4,7 +4,10 @@ class FooterComponent extends Component {
   render() {
     return (
       <footer className='footer'>
-        <span className='text-muted'>All Rights Reserved 2020 @suminjung</span>
+        {/* <div className='container'> */}
+        <span className='text-muted'>All Rights Reserved 2020 청운암</span>
+        {/* <span>hello</span>
+        </div> */}
       </footer>
     );
   }

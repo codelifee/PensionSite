@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+img {
+  opacity: 0.5;
+}
+
+.top-left {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: xx-large;
 }
