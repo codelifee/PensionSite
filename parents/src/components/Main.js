@@ -6,12 +6,12 @@ function MainSection() {
     return (
         <div className="main">
             <video src="/videos/video-1.mp4" autoPlay loop muted />
-            <h1>COUNTSELLING SAVE PEOPLE</h1>
+            <h1>COUNTSELLING SAVE SPIRITIES</h1>
             <p>What are your concerns?</p>
             <div className="main__btns">
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'>
-                    GET STARTED
+                    RESERVATION
                 </Button>
                 <Button className='btns' buttonStyle='btn--primary'
                 buttonSize='btn--large'>

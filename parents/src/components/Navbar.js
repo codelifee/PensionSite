@@ -29,7 +29,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar__container">
                     <Link to="/" className="navbar__logo" onClick={closeMobileMenu}>
-                        ChenJi<i class="fas fa-mountain" />
+                        천지연<i class="fas fa-mountain" />
                     </Link>
                     <div className="navbar__icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

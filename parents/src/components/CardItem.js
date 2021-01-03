@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function CardItem(props) {
     return (
         <>
-            <li className="cardItem">
+            <div className="cardItem">
                 <Link className="cardItem__link" to={props.path}>
                     <figure className="cardItem__pic-wrap"
                     data-category={props.label}>
@@ -17,7 +17,7 @@ function CardItem(props) {
                         </h5>
                     </div>
                 </Link>
-            </li>
+            </div>
         </>
     )
 }
