@@ -11,12 +11,12 @@ function MainSection() {
             <div className="main__btns">
                 <Button className='btns' buttonStyle='btn--outline'
                 buttonSize='btn--large'>
-                    RESERVATION
+                    RESERVATION <i className='far fa-play-circle' />
                 </Button>
-                <Button className='btns' buttonStyle='btn--primary'
+                {/* <Button className='btns' buttonStyle='btn--primary'
                 buttonSize='btn--large'>
-                    WATCH TRAILER <i className='far fa-play-circle' />
-                </Button>
+                    Watch Video 
+                </Button> */}
             </div>
             
         </div>

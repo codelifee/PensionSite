@@ -38,7 +38,7 @@ function Cards() {
                         text="100일 기도"
                         label="counseling"
                         path="/services"
-                        />   
+                        /> 
                     </ul>
                 </div>
             </div>
